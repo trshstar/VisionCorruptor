@@ -14,6 +14,6 @@ Includes:
 |-------------|---------------------|---------------|------------|----------------------------|
 | ResNet-18   | 97.43%              | 96.96%        | ~11M       | Baseline CNN               |
 
-- Best model checkpoint: ![`best_model.pth`]([https://huggingface.co/your-model-link](https://huggingface.co/trshstar/VisionCorruptor/blob/main/best_model.pth)
+- Best model checkpoint: ![`best_model.pth`]([(https://huggingface.co/trshstar/VisionCorruptor)])
 - Trained on 15 corruption types from Tiny ImageNet-C
 - Image size: 64×64 | Batch size: 64 | Optimizer: Adam | Early stopping: 3 epochs
