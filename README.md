@@ -6,4 +6,14 @@ Includes:
 	<li>Custom PyTorch Dataset for Tiny ImageNet-C (non-standard nested structure)</li>
 	<li>ResNet-18 training with early stopping, validation tracking, and test evaluation</li>
 	<li>Visualization: loss/accuracy plots, confusion matrix, misclassified images</li>
-</ul>	
+</ul>
+
+## 📊 Results Summary
+
+| Model       | Validation Accuracy | Test Accuracy | Parameters | Notes                      |
+|-------------|---------------------|---------------|------------|----------------------------|
+| ResNet-18   | 97.43%              | 96.96%        | ~11M       | Baseline CNN               |
+
+- Best model checkpoint: [`best_model.pth`]([https://huggingface.co/your-model-link](https://huggingface.co/trshstar/VisionCorruptor/blob/main/best_model.pth))
+- Trained on 15 corruption types from Tiny ImageNet-C
+- Image size: 64×64 | Batch size: 64 | Optimizer: Adam | Early stopping: 3 epochs
