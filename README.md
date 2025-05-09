@@ -5,7 +5,7 @@ Includes:
 <ul>
 	<li>Custom PyTorch Dataset for Tiny ImageNet-C (non-standard nested structure)</li>
 	<li>ResNet-18 training with early stopping, validation tracking, and test evaluation</li>
-	<li>Visualization: loss/accuracy plots, confusion matrix, misclassified images</li>
+	<li>Visualization: loss/accuracy plots, confusion matrix, sample images</li>
 </ul>
 
 ## 📊 Results Summary
